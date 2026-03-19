@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/unraidtestserver.iml" filepath="$PROJECT_DIR$/unraidtestserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ToteLogger.iml" filepath="$PROJECT_DIR$/ToteLogger.iml" />
     </modules>
   </component>
 </project>

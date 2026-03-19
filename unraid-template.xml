@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Tote-Logger</Name>
+  <Repository>yourdockerhubusername/tote-logger:latest</Repository>
+  <Registry>https://hub.docker.com/r/yourdockerhubusername/tote-logger</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview>A web app that logs the contents of a tote with QR code generation.</Overview>
+  <Category>Tools:</Category>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver-lsio.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled/>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="WebUI" Target="80" Default="8080" Mode="tcp" Description="The port to access the web interface" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
+</Container>
