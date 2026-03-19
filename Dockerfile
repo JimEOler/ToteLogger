@@ -18,6 +18,13 @@ RUN npm run build
 # Step 2: Serve the application using Nginx
 FROM nginx:alpine
 
+# Add metadata for Unraid/Docker
+LABEL org.opencontainers.image.title="Tote-Logger"
+LABEL org.opencontainers.image.description="A web app that logs the contents of a tote with QR code generation."
+LABEL org.opencontainers.image.url="https://github.com/yourgithubusername/unraidtestserver"
+LABEL org.opencontainers.image.source="https://github.com/yourgithubusername/unraidtestserver"
+LABEL org.opencontainers.image.documentation="https://github.com/yourgithubusername/unraidtestserver/wiki"
+
 # Copy the built React app from the builder stage
 COPY --from=builder /app/build /usr/share/nginx/html
 

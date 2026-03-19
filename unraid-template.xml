@@ -7,8 +7,8 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
-  <Project/>
+  <Support>https://github.com/yourgithubusername/unraidtestserver/issues</Support>
+  <Project>https://github.com/yourgithubusername/unraidtestserver</Project>
   <Overview>A web app that logs the contents of a tote with QR code generation.</Overview>
   <Category>Tools:</Category>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
